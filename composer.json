@@ -1,12 +1,13 @@
 {
     "name": "hexlet/code",
-    "description": "My first php project",
+    "description": "A project that implements five intellectual games of different levels of complexity. The rules are common to all games. To win the game, you need to answer three questions.",
     "bin": [
         "bin/brain-games",
         "bin/brain-even",
         "bin/brain-calc",
         "bin/brain-gcd",
-        "bin/brain-progression"
+        "bin/brain-progression",
+        "bin/brain-prime"
     ],
     "autoload": {
         "psr-4": {
@@ -18,7 +19,8 @@
             "src/Games/even.php",
             "src/Games/calc.php",
             "src/Games/gcd.php",
-            "src/Games/progression.php"
+            "src/Games/progression.php",
+            "src/Games/prime.php"
         ]
     },
     "require": {

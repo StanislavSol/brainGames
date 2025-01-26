@@ -14,13 +14,13 @@ function implementConditionsGame()
     $operation = OPERATIONS[$randIndexOperation];
 
     switch ($operation) {
-        case "+";
+        case "+":
             $resultExpression = $operatorLeft + $operatorRight;
             break;
-        case "-";
+        case "-":
             $resultExpression = $operatorLeft - $operatorRight;
             break;
-        case "*";
+        case "*":
             $resultExpression = $operatorLeft * $operatorRight;
             break;
     }

@@ -22,6 +22,4 @@ function implementConditionsGame()
     $progression[$findIndexRandomNumber] = '..';
     $progressionString = implode(' ', $progression);
     return [$progressionString, (string) $corretsAnswer];
-
-
 }

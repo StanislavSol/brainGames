@@ -19,5 +19,4 @@ function implementConditionsGame()
     }
     $expression = "{$numberOne} {$numberTwo}";
     return [$expression, (string) $maxDelimiter];
-
 }
