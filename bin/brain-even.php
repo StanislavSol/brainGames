@@ -1,19 +1,15 @@
 <?php
 
-const MAX_COUNT_ROUND = 3;
-const START_ROUND = 0;
-
-function game()
-{
-    $randomNumber = rand(1, 1000);
-    if ($randomNumber % 2 === 0) {
-        $correctAnswer = 'yes';   
-    } else {
-        $correctAnswer = 'no';
-    }
-
-    $rulesGame = "Answer \"yes\" if the number is even, otherwise answer \"no\".";
-    engeen($rulesGame, $randomNumber, $correctAnswer);
+$autoloadPath1 = __DIR__ . '/../../../autoload.php';
+$autoloadPath2 = __DIR__ . '/../vendor/autoload.php';
+if (file_exists($autoloadPath1)) {
+        require_once $autoloadPath1;
+} else {
+        require_once $autoloadPath2;
 }
 
-game();
+use function BrainGames\Engine\implementGameLogic;
+
+$rulesGame = "Answer \"yes\" if the number is even, otherwise answer \"no\".";
+$gameModule = '\BrainGames\Games\Even\implementConditionsGame';
+implementGameLogic($rulesGame, $gameModule);
