@@ -15,7 +15,7 @@ function implementGameLogic($rulesGame, $gameModule)
     line("Hello, %s!", $name);
     line($rulesGame);
 
-    for ($currentRound=START_ROUND; $currentRound<MAX_COUNT_ROUND; $currentRound++) {
+    for ($currentRound = START_ROUND; $currentRound < MAX_COUNT_ROUND; $currentRound++) {
         [$questionContent, $correctAnswer] = call_user_func($gameModule);
         line("Question: {$questionContent}");
         $answer = prompt("Your answer");
