@@ -3,5 +3,4 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/ecb0c5c42c51d90926dc/maintainability)](https://codeclimate.com/github/StanislavSol/php-project-45/maintainability)
 
-
-###[brain-even](https://asciinema.org/a/yL1jSMa9vt84dhNNMgeer4iHi)
+[brain-even](https://asciinema.org/a/yL1jSMa9vt84dhNNMgeer4iHi)
