@@ -15,25 +15,25 @@ git clone https://github.com/StanislavSol/php-project-45
 make install
 ```
 
-###Commands to launch the game and demo:
+### Commands to launch the game and demo:
 Application consisting of five intellectual games of different difficulty levels:
-1. [brain-even](https://asciinema.org/a/yL1jSMa9vt84dhNNMgeer4iHi)
+#### 1. [Brain-even](https://asciinema.org/a/yL1jSMa9vt84dhNNMgeer4iHi)
 ```
 make brain-even
 ```
-2. [brain-calc](https://asciinema.org/a/KjSORzzivT8xa17qyYx41F5z3)
+2. [Brain-calc](https://asciinema.org/a/KjSORzzivT8xa17qyYx41F5z3)
 ```
 make brain-calc
 ```
-3. [brain-gcd](https://asciinema.org/a/BBqRKW4ki4A0ncoawrv2HRFcU)
+3. [Brain-gcd](https://asciinema.org/a/BBqRKW4ki4A0ncoawrv2HRFcU)
 ```
 make brain-gcd
 ```
-4. [brain-progression](https://asciinema.org/a/BBqRKW4ki4A0ncoawrv2HRFcU)
+4. [Brain-progression](https://asciinema.org/a/BBqRKW4ki4A0ncoawrv2HRFcU)
 ```
 make brain-progression
 ```
-5. [brain-prime](https://asciinema.org/a/7XsdJqt4pgeBGih0AoePh1Taz)
+5. [Brain-prime](https://asciinema.org/a/7XsdJqt4pgeBGih0AoePh1Taz)
 ```
 make brain-prime
 ```
