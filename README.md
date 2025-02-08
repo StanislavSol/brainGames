@@ -14,7 +14,7 @@ make install
 ```
 
 ### Commands to launch the game and demo:
-Application consisting of five intellectual games of different difficulty levels:
+Application consisting of five intellectual games of different difficulty levels.
 #### [Brain-even](https://asciinema.org/a/yL1jSMa9vt84dhNNMgeer4iHi)
 ```
 make brain-even
