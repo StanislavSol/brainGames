@@ -1,3 +1,4 @@
+[![Maintainability](https://api.codeclimate.com/v1/badges/ffd454b3629bbe9b41d8/maintainability)](https://codeclimate.com/github/StanislavSol/brainGames/maintainability)
 # __Brain-games__
 
 ### Instruсtion:
