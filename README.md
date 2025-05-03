@@ -1,21 +1,20 @@
-[![Maintainability](https://api.codeclimate.com/v1/badges/ffd454b3629bbe9b41d8/maintainability)](https://codeclimate.com/github/StanislavSol/brainGames/maintainability)
 # __Brain-games__
 
-### Instruсtion:
-To win the game you need to answer three questions. In case of defeat, the game ends.
+### Инструкция:
+Чтобы выиграть игру, нужно ответить на три вопроса. В случае поражения игра заканчивается.
 
-### Installation:
-1. Clone the repository to your system -
+### Установка:
+1. Клонируйте репозиторий в свою систему. -
 ```
 git clone https://github.com/StanislavSol/php-project-45
 ```
-2. In the terminal, enter the command -
+2. В терминале введите команду -
 ```
 make install
 ```
 
-### Commands to launch the game and demo:
-Application consisting of five intellectual games of different difficulty levels.
+### Команды для запуска игры и демоверсии:
+Приложение, состоящее из пяти интеллектуальных игр разного уровня сложности.
 #### [Brain-even](https://asciinema.org/a/yL1jSMa9vt84dhNNMgeer4iHi)
 ```
 make brain-even
